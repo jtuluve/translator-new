@@ -7,13 +7,15 @@ function translate(){
     txt = txt.replace(/ಯಾವಾಗ/g, "ಏಪ").replace(/ಏನು/g, "ದಾದ").replace(/ಹೇಗೆ/g, "ಎಂಚ").replace(/ಎಲ್ಲಿ/g, "ಒಲ್ಪ").replace(/ಯಾಕೆ/g, "ದಾಯೆ").replace(/ಯಾವುದು/g, "ಒವ್").replace(/ಹೌದಾ/g, "ಅಂದಾ").replace(/ಹೌದೆ/g, "ಅಂದೆ").replace(/ಉಂಟಾ/g, "ಉಂಡಾ").replace(/ಎಲ್ಲಿಂದ/g, "ಒಲ್ಪರ್ದ್").replace(/ಎಲ್ಲಿಯವರೆಗೆ/g, "ಓಡೆ ಮುಟ").replace(/ಅಲ್ಲವೆ/g, "ಅತ್ತೇ").replace(/ಅಲ್ಲವಾ/g, "ಅತ್ತಾ").replace(/ಅಲ್ಲವೇ/g, "ಅತ್ತೇ").replace(/ಆಗುತ್ತದೆಯೇ/g, "ಆಪುಂಡೆ").replace(/ಆಗುತ್ತಾ/g, "ಆಪುಂಡಾ").replace(/ಆಗುತ್ತಿದೆಯೇ/g, "ಆವೊಂದುಂಡೆ").replace(/ಮಾಡುವೆಯಾ/g, "ಮಲ್ಪುವನಾ").replace(/ಮಾಡುತ್ತೀರಾ/g, "ಮಲ್ಪುವರಾ").replace(/ಮಾಡುತ್ತೀಯಾ/g, "ಮಲ್ಪುವನಾ");
     
     //animals
-    txt = txt.replace(/ಎಮ್ಮೆ/g, "ಎರ್ಮೆ").replace(/ಹಸು/g, "ಪೆತ್ತ").replace(/ಕಾಗೆ/g, "ಕಕ್ಕೆ").replace(/ಬೆಕ್ಕು/g, "ಪುಚ್ಚೆ").replace(/ಹುಲಿ/g, "ಪಿಲಿ");
+    txt = txt.replace(/ಎಮ್ಮೆ/g, "ಎರ್ಮೆ").replace(/ಹಸು/g, "ಪೆತ್ತ").replace(/ಕಾಗೆ/g, "ಕಕ್ಕೆ").replace(/ಬೆಕ್ಕು/g, "ಪುಚ್ಚೆ").replace(/ಹುಲಿ/g, "ಪಿಲಿ").replace(/ಸಿಂಹ/g, "ಸಿಮ್ಮ").replace(/ಕೋಳಿ/g, "ಕೋರಿ").replace(/ಕೋಗಿಲೆ/g, "ಪಿಲಿ");
     //fruits
     //verbs
-    txt = txt.replace(/ನಿಲ್ಲು/g, "ಉಂತು").replace(/ಕುಳಿತುಕೋ/g, "ಕುಲ್ಲು").replace(/ಓಡು/g, "ಬಲಿಪು").replace(/ನಡಿ/g, "ನಡಪು");
+    txt = txt.replace(/ನಿಲ್ಲು/g, "ಉಂತು").replace(/ಕುಳಿತುಕೋ/g, "ಕುಲ್ಲು").replace(/ಓಡು/g, "ಬಲಿಪು").replace(/ನಡಿ/g, "ನಡಪು").replace(/ನಡೆದುಕೊಂಡು/g, "ನಡತೊಂದು").replace(/ಓಡಿಕೊಂಡು/g, "ಬಲಿತೊಂದು");
     //things
     txt = txt.replace(/ಮನೆ/g, "ಇಲ್ಲ").replace(/ವಾಹನ/g, "ಗಾಡಿ").replace(/ಬಾಚಣಿಗೆ/g, "ಬರ್ಚನೆ").replace(/ಕೂದಲು/g, "ಕುಜಲ್");
     //plants 
+    //body parts
+    
     //colours
     txt = txt.replace(/ಹಳದಿ/g, "ಮಂಜಲ್").replace(/ಬಿಳಿ/g, "ಬೊಲ್ದು").replace(/ಹಸಿರು/g, "ಪಚ್ಚೆ").replace(/ಕಂದು/g, "ಬೂದು");
     //other words
