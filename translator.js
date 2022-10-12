@@ -12,10 +12,12 @@ function translate(){
     //verbs
     txt = txt.replace(/ನಿಲ್ಲು/g, "ಉಂತು").replace(/ಕುಳಿತುಕೋ/g, "ಕುಲ್ಲು").replace(/ಓಡು/g, "ಬಲಿಪು").replace(/ನಡಿ/g, "ನಡಪು").replace(/ನಡೆದುಕೊಂಡು/g, "ನಡತೊಂದು").replace(/ಓಡಿಕೊಂಡು/g, "ಬಲಿತೊಂದು");
     //things
-    txt = txt.replace(/ಮನೆ/g, "ಇಲ್ಲ").replace(/ವಾಹನ/g, "ಗಾಡಿ").replace(/ಬಾಚಣಿಗೆ/g, "ಬರ್ಚನೆ").replace(/ಕೂದಲು/g, "ಕುಜಲ್");
+    txt = txt.replace(/ಮನೆ/g, "ಇಲ್ಲ").replace(/ವಾಹನ/g, "ಗಾಡಿ").replace(/ಬಾಚಣಿಗೆ/g, "ಬರ್ಚನೆ").replace(/ಬಟ್ಟೆ/g, "ಕುಂಟು").replace(/ಇಡುಸುಡಿ/g, "ಮೈಸುಡಿ");
     //plants 
     //body parts
-    
+    txt = txt.replace(/ಕಾಲು/g, "ಕಾರ್").replace(/ಮುಖ/g, "ಮೋನೆ").replace(/ಮೂಗು/g, "ಮೂಂಕು").replace(/ಕೂದಲು/g, "ಕುಜಲ್").replace(/ಬೆರಳು/g, "ಬಿರೆಲ್").replace(/ಕಣ್ಣು/g, "ಕಣ್ಣ್").replace(/ಕಿವಿ/g, "ಕೆಬಿ").replace(/ಕುತ್ತಿಗೆ/g, "ಕೆಕ್ಕಿಲ್").replace(/ಹೊಟ್ಟೆ/g, "ಬಂಜಿ").replace(/ತಲೆ/g, "ತರೆ").replace(/ಹೃದಯ/g, "ಉಡಲ್").replace(/ಹಲ್ಲು/g, "ಕೂಲಿ").replace(/ನಾಲಗೆ/g, "ನಾಲಯಿ").replace(/ಹುಬ್ಬು/g, "ಕುರ್ಬು").replace(/ಭುಜ/g, "ಪುಗೆಲ್").replace(/ಹಣೆ/g, "ಮುಂಡ").replace(/ಬೆನ್ನು/g, "ಬೆರಿ");
+    //Numbers
+    txt = txt.replace(/ಒಂದು/g, "ಒಂಜಿ").replace(/ಎರಡು/g, "ರಡ್ಡ್").replace(/ಮೂರು/g, "ಮೂಜಿ").replace(/ನಾಲ್ಕು/g, "ನಾಲ್").replace(/ಐದು/g, "ಐನ್").replace(/ಆರು/g, "ಆಜಿ").replace(/ಏಳು/g, "ಏಲ್").replace(/ಎಂಟು/g, "ಎಣ್ಮ").replace(/ಒಂಬತ್ತು/g, "ಒರ್ಂಬ").replace(/ಹತ್ತು/g, "ಪತ್ತ್");
     //colours
     txt = txt.replace(/ಹಳದಿ/g, "ಮಂಜಲ್").replace(/ಬಿಳಿ/g, "ಬೊಲ್ದು").replace(/ಹಸಿರು/g, "ಪಚ್ಚೆ").replace(/ಕಂದು/g, "ಬೂದು");
     //other words
