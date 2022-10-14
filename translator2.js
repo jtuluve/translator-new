@@ -1,4 +1,8 @@
 let words = ["","","","","","","","","","","",""];
-for (let i) {
-  str = str + i;
+let meaning = ["", "","","","","","","","","","",""];
+
+
+
+for (let i = 0; i < words.length; i++) {
+  
 }
