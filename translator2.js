@@ -1,8 +1,8 @@
 let kannada = ["ನಾನು","ಅವನು","ಅದು","ಅವನ","ಅವಳು","ಅದಕ್ಕೆ","ಎಲ್ಲಿ","ಅದರ","ಹಸು","ಕಾಗೆ","ಎಮ್ಮೆ"];
 let tulu = ["ಯಾನ್", "ಆಯೆ","ಅವ್","ಆಯೇನ","ಆಲ್","ಐಕ್","ಓಲು","ಐತ","ಪೆತ್ತ","ಕಕ್ಕೆ","ಎರ್ಮೆ"];
 let word = "";
-document.getElementById("txt").addEventListener("input", new);
-function new(){
+document.getElementById("txt").addEventListener("input", neww);
+function neww(){
 for (let i = 0; i < tulu.length; i++){
   word = txt.indexOf(kannada[i]);
   while(word>-1){
