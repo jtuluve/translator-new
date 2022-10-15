@@ -4,11 +4,9 @@ let word = "";
 document.getElementById("txt").addEventListener("input", neww);
 function neww(){
 for (let i = 0; i < tulu.length; i++){
-  word = txt.indexOf(kannada[i]);
-  while(word>-1){
-    txt = txt.replace(kannada[i], tulu[i]);
-    word = txt.indexOf(kannada[i]);
-  }
+var re = new RegExp(kannada[i], 'g');
+
+str = str.replace(re, tulu[i]);
     document.getElementById("res").value = txt;
 }
 
