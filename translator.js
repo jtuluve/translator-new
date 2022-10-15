@@ -1,4 +1,4 @@
-document.getElementById("txt").addEventListener("input", translate);
+
 function translate(){
     let txt = document.getElementById("txt").value;
     //pronoun
@@ -25,5 +25,4 @@ function translate(){
    
     //if no words found
     
-    document.getElementById("res").value = txt;
 }
